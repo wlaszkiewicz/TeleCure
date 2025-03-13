@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="brat">#80DB30</color>
+    <color name="black">#000000</color>
+    <!-- Default PINK Theme Colors -->
+    <color name="default_background">#EDD6E0</color>
+    <color name="default_primary">#D29CB4</color>
+    <color name="default_primary_variant">#C4809E</color>
+    <color name="default_secondary">#B66488</color>
+    <color name="default_secondary_variant">#A14E73</color>
+
+    <!-- Red Theme Colors -->
+    <color name="red_background">#D39999</color>
+    <color name="red_primary">#B76060</color>
+    <color name="red_primary_variant">#A24B4B</color>
+    <color name="red_secondary">#843E3E</color>
+    <color name="red_secondary_variant">#663131</color>
+
+    <!-- Blue Theme Colors -->
+    <color name="blue_background">#8BA0CC</color>
+    <color name="blue_primary">#5270B0</color>
+    <color name="blue_primary_variant">#445E94</color>
+    <color name="blue_secondary">#384B76</color>
+    <color name="blue_secondary_variant">#2B3959</color>
+
+    <!-- Green Theme Colors -->
+    <color name="green_background">#A7D9B5</color>
+    <color name="green_primary">#6EBD83</color>
+    <color name="green_primary_variant">#52AF6B</color>
+    <color name="green_secondary">#459159</color>
+    <color name="green_secondary_variant">#387448</color>
+
+    <!-- Aqua Theme Colors -->
+    <color name="aqua_background">#AADAC8</color>
+    <color name="aqua_primary">#70BEA2</color>
+    <color name="aqua_primary_variant">#54B08E</color>
+    <color name="aqua_secondary">#469377</color>
+    <color name="aqua_secondary_variant">#397660</color>
+
+    <!-- Purple Theme Colors -->
+    <color name="purple_background">#BF90CE</color>
+    <color name="purple_primary">#9C57B2</color>
+    <color name="purple_primary_variant">#844698</color>
+    <color name="purple_secondary">#6A3A7A</color>
+    <color name="purple_secondary_variant">#512D5D</color>
 </resources>
