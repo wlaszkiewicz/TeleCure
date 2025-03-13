@@ -1,9 +1,52 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.TeleCure" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Default colors, can be overridden by specific themes -->
+        <item name="android:colorBackground">@color/default_background</item>
+        <item name="colorPrimary">@color/default_primary</item>
+        <item name="colorPrimaryVariant">@color/default_primary_variant</item>
+        <item name="colorSecondary">@color/default_secondary</item>
+        <item name="colorSecondaryVariant">@color/default_secondary_variant</item>
     </style>
 
-    <style name="Theme.TeleCure" parent="Base.Theme.TeleCure" />
+    <!-- Theme Variants -->
+    <style name="Theme.TeleCure.Red" parent="Base.Theme.TeleCure">
+        <item name="android:colorBackground">@color/red_background</item>
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorPrimaryVariant">@color/red_primary_variant</item>
+        <item name="colorSecondary">@color/red_secondary</item>
+        <item name="colorSecondaryVariant">@color/red_secondary_variant</item>
+    </style>
+
+    <style name="Theme.TeleCure.Blue" parent="Base.Theme.TeleCure">
+        <item name="android:colorBackground">@color/blue_background</item>
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_primary_variant</item>
+        <item name="colorSecondary">@color/blue_secondary</item>
+        <item name="colorSecondaryVariant">@color/blue_secondary_variant</item>
+    </style>
+
+    <style name="Theme.TeleCure.Green" parent="Base.Theme.TeleCure">
+        <item name="android:colorBackground">@color/green_background</item>
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_primary_variant</item>
+        <item name="colorSecondary">@color/green_secondary</item>
+        <item name="colorSecondaryVariant">@color/green_secondary_variant</item>
+    </style>
+
+    <style name="Theme.TeleCure.Aqua" parent="Base.Theme.TeleCure">
+        <item name="android:colorBackground">@color/aqua_background</item>
+        <item name="colorPrimary">@color/aqua_primary</item>
+        <item name="colorPrimaryVariant">@color/aqua_primary_variant</item>
+        <item name="colorSecondary">@color/aqua_secondary</item>
+        <item name="colorSecondaryVariant">@color/aqua_secondary_variant</item>
+    </style>
+
+    <style name="Theme.TeleCure.Purple" parent="Base.Theme.TeleCure">
+        <item name="android:colorBackground">@color/purple_background</item>
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_primary_variant</item>
+        <item name="colorSecondary">@color/purple_secondary</item>
+        <item name="colorSecondaryVariant">@color/purple_secondary_variant</item>
+    </style>
 </resources>
